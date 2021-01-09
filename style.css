@@ -1,0 +1,27 @@
+.jumbotron {
+    background-image: url("img/mountain.jpg");
+    background-size: cover;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.jumbotron h1 {
+    font-family: playfair display;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.col-sm {
+    background-color: rgba(121, 128, 134, 0.089);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#about {
+    color: white;
+}
+
+
