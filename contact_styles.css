@@ -1,0 +1,43 @@
+.background-contact {
+    background-image: url("/img/victoria.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.container a {
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+    font-family:  playfair display, helvetica, arial, sans-serif;
+}
+
+.intro p {
+    font-family: roboto, helvetica, arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    -webkit-margin-before: 0;
+}
+
+p,
+li {
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+} 
