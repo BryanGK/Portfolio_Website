@@ -26,3 +26,43 @@
 .image img {
     width: 100%;
 }
+
+.skill h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#skill-list {
+    margin-left: 50px;
+}
+
+body {
+    background-color: #fffeea;
+    color: #34495e;
+}
+
+.skill {
+    background-color: #54d4c2;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+    font-family:  playfair display, helvetica, arial, sans-serif;
+}
+
+.intro p {
+    font-family: roboto, helvetica, arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    -webkit-margin-before: 0;
+}
+
+p,
+li {
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+

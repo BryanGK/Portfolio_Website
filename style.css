@@ -8,8 +8,8 @@
 }
 
 .jumbotron h1 {
-    font-family: playfair display;
-    font-weight: 700;
+    font-family: playfair display, helvetica, arial, sans-serif;
+    font-weight: 600;
     font-size: 60px;
 }
 
