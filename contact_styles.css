@@ -1,13 +1,14 @@
 .background-contact {
-    background-image: url("/img/victoria.jpg");
+    /* background-image: url("/img/victoria.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #eeeeee;
 }
 
 .container {
     color: white;
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -15,10 +16,24 @@
 
 .container a {
     color: white;
+    text-decoration: none;
 }
 
 .header {
+    color: #34495e;
     text-align: center;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
 
 /*Typography*/

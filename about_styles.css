@@ -5,6 +5,11 @@
 .container {
     margin: 0 auto;
     width: 80%;
+    padding: 20px;
+}
+
+.content {
+    padding-top: 50px;
 }
 
 .header {
@@ -25,11 +30,12 @@
 
 .image img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .skill h3 {
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 #skill-list {
@@ -37,13 +43,47 @@
 }
 
 body {
-    background-color: #fffeea;
+    background-color: #eeeeee;
     color: #34495e;
 }
 
 .skill {
-    background-color: #54d4c2;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #eeeeee;
 }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+nav {
+    height: 20px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #34495e;
+    position: fixed;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #34495e;
+    margin: 0px 5px; 
+}
+
+nav a:hover {
+    color: #eeeeee;
+    background-color: #34495e;
+    transition: .25s;
+}
+ 
+
 
 /*Typography*/
 
@@ -54,14 +94,19 @@ h3 {
 }
 
 .intro p {
-    font-family: roboto, helvetica, arial, sans-serif;
-    font-size: 2em;
-    font-weight: 500;
+    font-family: work sans, helvetica, arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
     -webkit-margin-before: 0;
 }
 
 p,
 li {
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+nav {
     font-family: work sans, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
