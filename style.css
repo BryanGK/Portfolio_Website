@@ -31,35 +31,6 @@
     padding-left: 20px;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-nav {
-    height: 20px;
-    background-color: #eeeeee;
-    border-bottom: 1px solid #34495e;
-    position: fixed;
-    width: 100% !important;
-    top: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: #34495e;
-    margin: 0px 5px; 
-}
-
-nav a:hover {
-    color: #eeeeee;
-    background-color: #34495e;
-    transition: .25s;
-}
-
 /* ========== about.html ========== */
 
 /* * {
@@ -132,11 +103,102 @@ li {
 
 /* =============== contact.html =============== */
 
-/* .background-contact {
-    background-image: url("/img/victoria.jpg");
+.background-contact {
+    /* background-image: url("/img/victoria.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
-} */
+    background-color: #eeeeee;
+}
+
+.contact-container {
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.contact-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 75px;
+    color: #34495e;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.left {
+    float: left;
+    padding-left: 20px;
+}
+
+.right {
+    float: right;
+    padding-right: 20px;
+}
+
+nav {
+    height: 20px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #34495e;
+    position: fixed;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #34495e;
+    margin: 0px 5px; 
+}
+
+nav a:hover {
+    color: #eeeeee;
+    background-color: #34495e;
+    -webkit-transition: all 600ms ease-out;
+}
+
+.nav-container {
+    padding: 20px 20px 0 0;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+    font-family:  playfair display, helvetica, arial, sans-serif;
+}
+
+.intro p {
+    font-family: roboto, helvetica, arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    -webkit-margin-before: 0;
+}
+
+p,
+li {
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+} 
+
+nav {
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.lead {
+    font-weight: 400;
+}
 
 
 

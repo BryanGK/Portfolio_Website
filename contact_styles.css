@@ -5,7 +5,7 @@
     background-color: #eeeeee;
 }
 
-.container {
+.contact-container {
     color: white;
     margin: 0 auto;
     width: 50%;
@@ -14,7 +14,7 @@
     padding: 20px;
 }
 
-.container a {
+.contact-container a {
     color: white;
     text-decoration: none;
 }
