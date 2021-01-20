@@ -115,7 +115,7 @@ li {
     margin: 0 auto;
     width: 50%;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(52, 73, 94, 0.75);
     padding: 20px;
 }
 
@@ -125,13 +125,14 @@ li {
 }
 
 .header {
-    margin-top: 75px;
+    margin: 125px;
     color: #34495e;
     text-align: center;
 }
 
 li {
     padding-bottom: 10px;
+    list-style:  none;
 }
 
 .left {
@@ -145,7 +146,7 @@ li {
 }
 
 nav {
-    height: 20px;
+    padding-top: 20px;
     background-color: #eeeeee;
     border-bottom: 1px solid #34495e;
     position: fixed;
@@ -166,9 +167,18 @@ nav a:hover {
     -webkit-transition: all 600ms ease-out;
 }
 
-.nav-container {
-    padding: 20px 20px 0 0;
+.container-fluid {
+    padding: 20px 0 0;
 }
+
+i {
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* .container-fluid {
+    padding: 20px 20px 0 0;
+} */
 
 /*Typography*/
 
