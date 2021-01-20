@@ -41,8 +41,8 @@
     /* text-transform: uppercase; */
 }
 
-#skill-list {
-    margin-left: 50px;
+.skill {
+    text-align: left;
 }
 
 body {
