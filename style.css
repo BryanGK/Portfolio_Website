@@ -109,6 +109,51 @@ li {
     font-weight: 400;
 } */ 
 
+
+.container-fluid {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0 0;
+}
+
+/* .content {
+    padding-top: 50px;
+} */
+
+.column {
+    width: 33.33333333333333%;
+    display: inline-block;
+    padding-right: 20px;
+    float: left;
+}
+
+.main-text {
+    padding-top: 40px;
+    clear: both;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.skill h3 {
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+body {
+    background-color: #eeeeee;
+    color: #34495e;
+}
+
+.skill {
+    text-align: left;
+    background-color: rgba(52, 73, 94, 0.75);
+    border-radius: 20px;
+    color: #eeeeee;
+}
+
 /* =============== contact.html =============== */
 
 .background-contact {
@@ -193,14 +238,15 @@ li i {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     font-family:  playfair display, helvetica, arial, sans-serif;
 }
 
 .intro p {
     font-family: work sans, helvetica, arial, sans-serif;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 1.25em;
+    font-weight: 400;
     -webkit-margin-before: 0;
 }
 
@@ -232,11 +278,13 @@ nav {
 
 h5 button {
     border: none;
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
-.card-header {
+/* .card-header {
     background: #eeeeee;
-}
+} */
 
 .card-header button {
     color: #34495e;
