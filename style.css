@@ -39,27 +39,22 @@
 #carouselExampleIndicators {
     padding-top: 45px;
 }
+
+/* .projects {
+    padding: 30px 30px;
+} */
+
+.work-projects {
+    width: 80%;
+    margin: auto;
+}
+
+.proj-img {
+    padding: 30px 30px;
+}
+
 /* ========== about.html ========== */
 
-/* * {
-     box-sizing: border-box;
-}
-
-.container {
-    margin: 0 auto;
-    width: 80%;
-}
-
-.header {
-    text-align: center;
-}
-
-.column {
-    width: 33.33333333333333%;
-    display: inline-block;
-    padding-right: 20px;
-    float: left;
-}
 
 .main-text {
     padding-top: 40px;
@@ -88,38 +83,6 @@ body {
     background-color: #54d4c2;
 }
 
-/*Typography*/
-
-/* h1,
-h2,
-h3 {
-    font-family:  playfair display, helvetica, arial, sans-serif;
-}
-
-.intro p {
-    font-family: roboto, helvetica, arial, sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    -webkit-margin-before: 0;
-}
-
-p,
-li {
-    font-family: work sans, Arial, Helvetica, sans-serif;
-    font-weight: 400;
-} */ 
-
-
-.container-fluid {
-    margin: 0 auto;
-    width: 80%;
-    padding: 20px 0 0;
-}
-
-/* .content {
-    padding-top: 50px;
-} */
-
 .column {
     width: 33.33333333333333%;
     display: inline-block;
@@ -139,7 +102,6 @@ li {
 
 .skill h3 {
     text-align: center;
-    /* text-transform: uppercase; */
 }
 
 body {
@@ -157,7 +119,6 @@ body {
 /* =============== contact.html =============== */
 
 .background-contact {
-    /* background-image: url("/img/victoria.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #eeeeee;
@@ -221,7 +182,7 @@ nav a:hover {
     -webkit-transition: all 600ms ease-out;
 }
 
-.container-fluid {
+.nav-bar {
     padding: 20px 0 0;
 }
 
@@ -230,9 +191,6 @@ li i {
     font-size: 25px;
 }
 
-/* .container-fluid {
-    padding: 20px 20px 0 0;
-} */
 
 /*Typography*/
 
@@ -281,10 +239,6 @@ h5 button {
     font-family: work sans, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-
-/* .card-header {
-    background: #eeeeee;
-} */
 
 .card-header button {
     color: #34495e;
