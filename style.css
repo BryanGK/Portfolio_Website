@@ -24,9 +24,9 @@
     padding: 10px;
 }
 
-#about {
+/* #about {
     color: white;
-}
+} */
 
 #contact {
     color: white;
@@ -107,7 +107,7 @@ body {
     color: #eeeeee;
 }
 
-.about {
+.content {
     margin: 50px auto;
 }
 
@@ -126,6 +126,8 @@ body {
     border-radius: 20px;
     background-color: rgba(52, 73, 94, 0.75);
     padding: 20px;
+    margin-bottom: 50px;
+   
 }
 
 .contact-container a {
@@ -186,6 +188,10 @@ li i {
     font-size: 1.5em;
 }
 
+.btn {
+    white-space: normal;
+    text-align: left;
+}
 
 /*Typography*/
 

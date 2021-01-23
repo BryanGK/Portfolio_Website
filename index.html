@@ -26,6 +26,18 @@
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
     <!-- Main jumbotron for a primary marketing message or call to action-->
+    <nav class="container-fluid nav-bar">
+      <section class="left">
+        <a href="/">BryanGK</a>
+      </section>
+
+      <section class="right">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
+      </section>
+    </nav>
+
 
     <div class="jumbotron jumbotron-fluid">
       <section class="container">
@@ -33,25 +45,9 @@
         <p class="lead">Electrician in the process of making a career change.
           One day I hope to inspire others to make a change to be a better version of themselves.
         </p>
-        <a id="about" href="about.html">About Me</a>
-        <a id="contact" href="contact.html">Contact</a>
-        <a id="faq" href="faq.html">FAQ</a>
       </section>
     </div>
     <!-- /jumbotron-->
-
-
-    <nav class="container-fluid nav-bar">
-      <section class="left">
-        <a href="/">BryanGK</a>
-      </section>
-
-      <section class="right">
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="faq.html">FAQ</a>
-      </section>
-    </nav>
 
 
 
@@ -101,7 +97,7 @@
         <div class="col proj-img"><img src="/img/stairs.jpg" class="img-fluid"></div>
       </div>
     </div><!-- end of projects layout -->
-
+<div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -155,7 +151,195 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- end of carousel -->
+    </div>
+</div>
+    
+    <div class="container content" id="about">
+      <h2 class="header">About me. BryanGK</h2>
+      <div class="row">
+    
+        <div class="col image column">
+          <img src="img/myFaceWide.jpeg" class="img-fluid" alt="My Face" width=150px>
+        </div><!-- end image -->
+    
+        <div class="col intro column">
+          <h3>Introduction</h3>
+          <p>An Electrician making a career change to being a Web Developer.
+          </p>
+        </div><!-- end introduction -->
+    
+        <div class="col skill column">
+          <h3>What I Am</h3>
+          <ul id="skill-list">
+            <li>Former Master Electrician</li>
+            <li>Adept learner</li>
+            <li>Beginner web developer</li>
+            <li>Good teammate</li>
+            <li>Proven leader</li>
+            <li>Currently learning HTML, CSS, and JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- end skill -->
+    
+    <section class="main-text">
+      <h3>More about me</h3>
+      <p>In 2007 I was working in a mall kiosk, it was not a career type job. Having done some career reaseach, I
+        decided
+        that the electrical trade was my best option for get a 'real' job. As an electrician I earned the rank
+        of job
+        foreman. Running a multitude of complex electrical projects, including brand new gas stations from the
+        ground up, I
+        rose to be the top foreman at Allied Power & Communication. Something however was missing. I was not
+        happy doing that
+        type of work. Joining the union was the next step, I thought this would bring job satisfaction by making
+        more money.
+        That was wrong. Going from Raylec Power doing infrastructure then to Victoria Shipyard on Navy vessel
+        maitenance,
+        nothing felt right.
+      </p>
+      <br>
+      <p>My partner was intrumental in helping me along this journey, she was the one who recommended I try
+        getting into the
+        tech sector. After doing some research I decided to enroll in the UI design program at CareerFoundry.
+        While I began
+        the course at CareerFoundry everything was great. Until I stumbled upon coding and web development. Part
+        of what draws
+        me to coding and development is the problem solving challenge. That feeling you get when you finally get
+        that piece of
+        code to work properly. My years of fixing malfunctioning electrical equipment has honed my
+        troubleshooting skills.
+        That along with being a self-starter and highly motivated will help me get the career I want.
+      </p>
+      <br>
+      <p>In my younger years computers and programming always held my interest. My Dad had the latest PC's for me
+        to
+        play with, and I took some computer studies in high school. When I got older and had to decide on a
+        career, my options
+        were limited as I was living on my own and had minimal financial resources. Now that I am more
+        established I've been
+        able to take the time off work to learn enough to get started in a career doing what I love. Now I spend
+        all my time
+        learning about tech knowing that one day my hard work will pay off.
+      </p>
+    </section><!-- end main text -->
+    </section><!-- end container -->
+
+    <h2 class="header">FAQ. BryanGK</h2>
+    
+    <div id="accordian">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              Why did you choose to be a web developer? <i class="fas fa-angle-double-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="accordian">
+          <div class="card-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni harum quibusdam doloremque iure
+            rerum aliquid mollitia illo quo, nesciunt suscipit voluptas, nihil aperiam provident libero
+            inventore velit consequatur a possimus!
+          </div>
+        </div>
+      </div><!-- end of card 1 -->
+    
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+              aria-controls="collapseTwo">
+              You make good money as an electrician, why not just keep doing that? <i class="fas fa-angle-double-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, enim? Corrupti inventore
+            amet distinctio tempore odio dolore mollitia hic praesentium saepe perferendis. Molestiae sed
+            recusandae, culpa quae mollitia accusantium quibusdam!
+          </div>
+        </div>
+      </div><!-- end of card 2 -->
+    
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+              aria-controls="collapseThree">
+              What are you doing right now to get started in a career in web development career? <i
+                class="fas fa-angle-double-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A at qui maiores, deleniti amet fugiat
+            deserunt. Blanditiis at cum, eaque impedit soluta quidem delectus totam id. Corporis unde
+            excepturi earum!
+          </div>
+        </div>
+      </div> <!-- end of card 3 -->
+    
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+              aria-controls="collapseFour">
+              What makes you think you would be any good and coding and web development? <i
+                class="fas fa-angle-double-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illum, neque quasi ipsa id
+            doloribus tenetur officia reiciendis architecto laboriosam tempore unde debitis quos delectus,
+            optio fugiat mollitia quidem maiores!
+          </div>
+        </div>
+      </div><!-- end of card 4 -->
+    
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+              aria-controls="collapseFive">
+              Hmmm you can't seem to get the forth accordion working, why is that? <i class="fas fa-angle-double-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti voluptatibus
+            accusamus? Tempore dolor dolorem provident necessitatibus ut corrupti aliquid reiciendis labore?
+            In, doloribus magni labore nisi vero ipsum voluptates.
+          </div>
+        </div>
+      </div><!-- end of card 5 -->
+    </div><!-- end of accordion -->
+  
+    <h2 class="header">Contact. BryanGK</h2>
+    
+    <section class="container contact-container" id="contact">
+      <div class="contact">
+        <p>Located in Victoria, B.C., Canada. Please feel free to drop me a line.
+          Always looking to connect with new people in the tech community.
+        <ul>
+          <li><a href="mailto:bryangordonkrauss@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
+              bryangordonkrauss@gmail.com</a>
+          </li>
+          <li><a href="https://github.com/BryanGK" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/bryan-krauss-556b3a200/" target="_blank"><i class="fab fa-linkedin"></i>
+              LinkedIn</a></li>
+        </ul>
+        </p>
+      </div>
+    </section><!-- end of contact info -->
+    
 
     <!-- Bootstrap core JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
