@@ -64,31 +64,18 @@
     clear: both;
 }
 
-.image img {
+.image img-fluid {
     width: 100%;
 }
 
 .skill h3 {
-    
     text-align: center;
-    text-transform: uppercase;
 }
-
-
 
 body {
     background-color: #fffeea;
     color: #34495e;
 }
-
-/* .column {
-    width: 33.33333333333333%;
-    display: inline-block;
-    padding-right: 20px;
-    float: left;
-} */
-
-
 
 .image img {
     width: 100%;
@@ -122,15 +109,15 @@ body {
 .contact-container {
     color: white;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     border-radius: 20px;
     background-color: rgba(52, 73, 94, 0.75);
     padding: 20px;
     margin-bottom: 50px;
-   
 }
 
 .contact-container a {
+  
     color: white;
     text-decoration: none;
 }
