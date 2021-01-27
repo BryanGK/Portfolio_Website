@@ -28,7 +28,7 @@
     color: white;
 } */
 
-#contact {
+#contact-info {
     color: white;
     padding-left: 20px;
 }
@@ -241,4 +241,9 @@ h5 button {
     width:min-content;
     margin: 75px auto;
    
+}
+
+.contact {
+    width: 60%;
+    margin: auto;
 }
