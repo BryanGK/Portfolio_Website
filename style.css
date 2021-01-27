@@ -203,7 +203,9 @@ li {
     font-weight: 400;
 } 
 
-nav {
+nav,
+form,
+.goals a {
     font-family: work sans, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
