@@ -69,6 +69,7 @@
 }
 
 .skill h3 {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -109,7 +110,7 @@ body {
 .contact-container {
     color: white;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     border-radius: 20px;
     background-color: rgba(52, 73, 94, 0.75);
     padding: 20px;
@@ -232,3 +233,12 @@ h5 button {
     color: #34495e;
 }
 
+.btm-footer p {
+    text-align: center;
+}
+
+.yt-vid {
+    width:min-content;
+    margin: 75px auto;
+   
+}
