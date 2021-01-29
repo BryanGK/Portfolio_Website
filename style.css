@@ -3,6 +3,7 @@
 .jumbotron {
     background-image: url("/img/mountainsWideShade.jpg");
     background-size: cover;
+    background-position: top;
 }
 
 .jumbotron p {
@@ -81,6 +82,7 @@ body {
 .image img {
     width: 100%;
     border-radius: 20px;
+    background-position: top;
 }
 
 body {
@@ -107,7 +109,7 @@ body {
     background-color: #eeeeee;
 }
 
-.contact-container {
+.container.contact-container {
     color: white;
     margin: 0 auto;
     width: 60%;
@@ -246,6 +248,28 @@ h5 button {
 }
 
 .contact {
-    width: 60%;
+    width: 80%;
     margin: auto;
+}
+
+@media (min-width: 769px) {
+    .modal-button button {
+        float: right;
+    }
+}
+
+.modal-content {
+    padding: 10px 10px;
+    font-family: work sans, Arial, Helvetica, sans-serif;
+}
+
+.modal-content h5 {
+    font-family:  playfair display, helvetica, arial, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#meander-app {
+    height: 500px;
+    width:100%;
 }
