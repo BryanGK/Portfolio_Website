@@ -273,3 +273,9 @@ h5 button {
     height: 75vh;
     width:100%;
 }
+
+#visible-comment {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

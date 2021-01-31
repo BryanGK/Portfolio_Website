@@ -21,7 +21,9 @@ $(document).ready(function () {
     // Button Event Handler
     $("#submit").on('click', function () {
         var comment = $('.message-box').val();
-        console.log(comment);
+        $('#visible-comment').html(`Your message: ${comment}, has been sent. We'll be in contact soon.`);
+        $('.message-box').hide();
+        $('.email-form').hide();
         return false;
     });
 });
