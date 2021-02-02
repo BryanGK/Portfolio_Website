@@ -21,9 +21,26 @@ $(document).ready(function () {
     // Button Event Handler
     $("#submit").on('click', function () {
         var comment = $('.message-box').val();
-        $('#visible-comment').html(`Your message: ${comment}, has been sent. We'll be in contact soon.`);
+        $('#visible-comment').html(`Your message has been sent. We'll be in contact soon.`);
         $('.message-box').hide();
         $('.email-form').hide();
+        $("#char-count").hide();
         return false;
     });
 });
+
+$(".message-box").on("keyup", function () {
+    let charCount = $(".message-box").val().length;
+    $("#char-count").html(charCount);
+    if (charCount > 50) {
+        $("#char-count").css("color", "red");
+        $("#message").css("border-color","red")
+    } else {
+        $("#char-count").css("color", "black");
+    }
+});
+
+
+
+
+
