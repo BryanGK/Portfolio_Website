@@ -288,7 +288,7 @@ h5 button {
 
 .work-img {
     display: block;
-    margin: auto;
+    margin: 20% auto;
     /* max-width: 200px; */
     position: relative;
 }
@@ -298,11 +298,14 @@ h5 button {
     top: 15%;
     left: 22%;
     color: #fff;
+    font-size: 1em;
     font-family: work sans;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.5em;
     line-height: 1.6;
+    display: none;
+    
 }
 
 .proj-title {

@@ -35,3 +35,10 @@ for (let i = 0; i < works.length; i++) {
 ");
 };
 
+$(".work-img").mouseenter(function () { 
+  $(".info", this).show();
+  // $(".work-img").css("background", "darken");
+}).mouseleave(function () {
+  $(".info", this).hide();
+});
+
